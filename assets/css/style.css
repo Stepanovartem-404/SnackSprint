@@ -567,9 +567,8 @@ video::-webkit-media-controls {
     font-size: 16px; }
 
 .stay {
-  background: url(../images/stay-bg.png);
-  background-repeat: repeat; }
-  .stay h2 {
+  background-color: #3333334f; }
+  .stay h2 {    
     font-size: 48px;
     color: #03133a; }
   .stay p {
@@ -594,17 +593,17 @@ video::-webkit-media-controls {
     padding: 15px 0;
     margin-top: -2px;
     border-radius: 0;
-    background: #03133a8c;
-    border-color: #03133a8c;
+    background: #03133a68;
+    border-color: #03133a00;
    }
     .stay button:hover {
       background: #06226a21;
       border-color: #06226a2e; }
 
 footer {
-  background-image: url(/assets/images/home-bg.png);
-  background-size: cover;
-  background-position: center center;
+  background-image: url(../images/home-bg.png) !important;
+  background-size: cover !important;
+  background-position: center center !important;
  }
   footer h2.logo {
     font-size: 75px;
